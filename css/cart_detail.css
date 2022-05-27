@@ -1,0 +1,77 @@
+.header_search {
+    background-color: rgba(0, 0, 0, 1.7);
+}
+.header_nav{
+    background-color: rgba(0, 0, 0, 1.7);
+}
+.content{
+    width: 100%;
+    display: flex;
+    margin-top: 200px;
+    padding: 0;
+    flex: 10;justify-content: space-around;
+   
+}
+.content__left{
+    width: 65%;
+    
+}
+.left__item{
+    background-color: rgb(59, 51, 51);
+    margin-bottom: 4px;
+}
+.left__item-ourbrand{
+    color: #fff;
+    border: 0.5px solid #fff;
+}
+.left__item-checkbox{
+    margin-bottom: 4px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-checkbox-img{
+    width: 6%;
+}
+.item__checkbox-description{
+
+}
+.item__checkbox-cart{
+
+}
+.current-price{
+
+}
+.checkbox__like-delete{
+
+}
+.checkbox__cart-add{
+    display: block;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.content__right{
+    position: relative;
+    width: 30%;
+
+}
+.right{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 379px;
+    height: 430px;
+    background-color: #3c3c5d;
+    color: #fff;
+}
+.right_location{
+    display: inline-block;
+}
+.right__sum{
+    margin-right: 20px;
+}
+.right_pay{
+    display: block;
+}
